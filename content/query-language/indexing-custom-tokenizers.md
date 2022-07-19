@@ -49,7 +49,7 @@ type PluginTokenizer interface {
     // is used in queries.
     Name() string
 
-    // Identifier is a byte that uniquely identifiers the tokenizer.
+    // Identifier is a byte that uniquely identifies the tokenizer.
     // Bytes in the range 0x80 to 0xff (inclusive) are reserved for
     // custom tokenizers.
     Identifier() byte
